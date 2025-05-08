@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #a42c58 0%, #66418eb4 100%);
+      font-family: 'Segoe UI', sans-serif;
+
+      
+      
+    }
+    .hero-section {
+      height: 100vh;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      background: url('https://via.placeholder.com/1500x1000') center no-repeat ;
+      background-size: cover;
+    
+    }
+    .hero-content {
+      text-align: center;
+      color: white;
+    }
+    .btn-custom {
+      background: linear-gradient(45deg, #3d1f5c, #e100ff);
+      color: white;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 15px;
+      transition: backgroud 0.3s ease;
+      text-decoration: none;
+   
+    }
+    .btn-custom:hover {
+      background: linear-gradient(45deg, #a3af24, #404d07);
+    }
+    .section-title {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    .project-card {
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(85, 63, 63, 0.1);
+    }
+    .clr:hover{
+      background-color: #ac329e;
+      
+    }
+    .con{
+      color: #3d1f5c;
+    }
+    h3{
+      color: #a71193;
+    }
+    h3:hover{
+      color: #21221d;
+
+    }
+   
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <div class="container">
+      <h3>My Portfolio</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+        <div class="clr">  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li></div>
+        <div class="clr"><li class="nav-item"><a class="nav-link" href="projects_skills.html">Projects </a></li></div>
+        
+         <div class="clr"><li class="nav-item"><a class="nav-link" href="about_me.html">About Me</a></li></div> 
+         <div class="clr"><li class="nav-item"><a class="nav-link" href="contact_details.html">Contact</a></li></div> 
+        </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content" data-aos="fade-up">
+     
+      <img src="../a(1)(1).png" class="rounded-circle mb-4" alt="Profile Picture" style="width: 250px; height: 250px;">
+      <h2>Hi, I'm <span style="color: #c0dd1b;">ANUSIYA M</span></h2>
+      <p>Electronics Engineer | IoT Developer | Embedded Systems Enthusiast<br>
+Passionate about creating intelligent systems that bridge the physical and <br> digital 
+Explore my projects, certifications, and skills to know more about my journey in tech.
+
+</p>
+      <a href="projects_skills.html" class="btn-custom">See My Work</a>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
